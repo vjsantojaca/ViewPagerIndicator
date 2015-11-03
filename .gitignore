@@ -1,23 +1,42 @@
-#Android generated
-bin
-gen
+### Built application files
+*.apk
+*.ap_
+*.jar
+*.aar
+!app/libs/*.jar
+!gradle/wrapper/gradle-wrapper.jar
 
-#Eclipse
-.project
+### Files Dalvik VM
+*.dex
+
+### Java Class
+*.class
+
+### Generated files
+/bin/
+/gen/
+/classes/
+/gen-external-apklibs/
 .classpath
-.settings
 
-#IntelliJ IDEA
-.idea
-*.iml
-classes
+### Gradle files
+.gradle
+/build
 
-#Maven
-target
-release.properties
-pom.xml.*
-
-#Command line
+### Local configuration file
 local.properties
-build.xml
-proguard-project.txt
+
+### Intellij IDEA config
+/.idea/workspace.xml
+/.idea/libraries
+/.idea/
+*.iml
+
+### VI swap files
+*.swp
+
+### OSX files
+.DS_Store
+
+### Windows files
+*.bak
